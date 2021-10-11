@@ -1,0 +1,14 @@
+<template>
+    <div class={animationClass} onanimationend={handleAnimationEnd}>
+        <span class="greet">{greeting}</span>
+    </div>
+    <div class="slds-m-top_small slds-m-bottom_medium">
+        <lightning-button
+            label="Hello, World!"
+            title="Using LBC"
+            onclick={handleClick}
+            class="slds-m-left_x-small"
+        ></lightning-button>
+        <lightning-badge label="Alpha" class="slds-badge_inverse"></lightning-badge>
+    </div>
+</template>

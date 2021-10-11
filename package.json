@@ -1,0 +1,43 @@
+{
+    "name": "my-lwc-app",
+    "version": "0.0.1",
+    "bugs": "https://github.com/my-lwc-app/issues",
+    "dependencies": {
+        "@lwc/synthetic-shadow": "^2.5.3",
+        "@salesforce-ux/design-system": "^2.16.2",
+        "lightning-base-components": "^1.13.7-alpha",
+        "lwc-services": "^3.2.2"
+    },
+    "devDependencies": {
+        "husky": "^3.0.8",
+        "lint-staged": "^9.4.2",
+        "npm-run-all": "^4.1.5"
+    },
+    
+    "engines": {
+        "node": ">=10.13.0",
+        "npm": ">=6.4.1",
+        "yarn": ">=1.9.4"
+    },
+    "homepage": "https://github.com/my-lwc-app",
+    "keywords": [
+        "lwc"
+    ],
+    "license": "MIT",
+    "repository": "my-lwc-app",
+    "scripts": {
+        "build": "lwc-services build -m production",
+        "build:development": "lwc-services build",
+        "lint": "eslint ./src/**/*.js",
+        "postinstall": "husky install",
+        "precommit": "npm run prettier:verify && [ $? -eq 0 ] && npm run lint",
+        "prettier": "prettier --write \"**/*.{css,html,js,json,md,ts,yaml,yml}\"",
+        "prettier:verify": "prettier --list-different \"**/*.{css,html,js,json,md,ts,yaml,yml}\"",
+        "start": "node scripts/server.js",
+        "test:unit": "lwc-services test:unit",
+        "test:unit:coverage": "lwc-services test:unit --coverage",
+        "test:unit:debug": "lwc-services test:unit --debug",
+        "test:unit:watch": "lwc-services test:unit --watch",
+        "watch": "lwc-services watch"
+    }
+}
