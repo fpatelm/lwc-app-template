@@ -25,3 +25,7 @@ npm install
 nm run build
 ```
 The generated files will be **/dist** folder.
+
+
+
+![Drag Racing](lwc-openosource.PNG)
