@@ -1,6 +1,6 @@
-# LWC Opensource Started Project
+# LWC Opensource Starter Project
 
-Hi! I have created this Light ning Web Components started project that can be deployed outside Salesforce, can be deployed in any web server. 
+Hi! I have created this Lightning Web Components starter project that can be deployed outside Salesforce, can be deployed in any web server. 
 
 Fell free to fork, start this project and start building your custom Lightining App.
 
