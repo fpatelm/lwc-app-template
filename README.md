@@ -5,7 +5,7 @@ Hi! I have created this Lightning Web Components starter project that can be dep
 Fell free to fork, start this project and start building your custom Lightining App.
 
 
-This repo contains the SLDS (Salesforce Lightning Design System) and Lignining Web Components, except for the ones that are speficif to use with Salesforce data.
+This repo contains the SLDS (Salesforce Lightning Design System) and Lignining Web Components, except APIs that are specific to use with Salesforce data.
 Reference: ([lightning-base-components - npm (npmjs.com)](https://www.npmjs.com/package/lightning-base-components))
 
 ## Run the LWC App Development Mode
