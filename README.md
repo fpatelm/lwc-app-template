@@ -2,7 +2,7 @@
 
 Hi! I have created this Lightning Web Components starter project that can be deployed outside Salesforce, can be deployed in any web server. 
 
-Fell free to fork, start this project and start building your custom Lightining App.
+Fell free to use this template and create your own custom Lightining App.
 
 
 This repo contains the SLDS (Salesforce Lightning Design System) and Lignining Web Components, except APIs that are specific to use with Salesforce data.
